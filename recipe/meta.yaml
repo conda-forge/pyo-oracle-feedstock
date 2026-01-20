@@ -1,5 +1,5 @@
 {% set name = "pyo-oracle" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bio-oracle/pyo_oracle/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3142c4e5ab46da8bb7832a1505b8fd1d1e639c81557777fb7b3b2b7f12b36691
+  sha256: 17612ca91afbbc340ef69f8e5e4cc428b608ad9b29f221b11fbafd52aee0f4b7
 
 build:
   noarch: python
